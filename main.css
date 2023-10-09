@@ -1,0 +1,119 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+  *{
+    /* font-family: "Rubik"; */
+
+  }
+  *::-webkit-scrollbar{
+    width: 0;
+  }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.myTextSmall{
+    color: rgb(93, 93, 93);
+    font-size: 12px;
+    vertical-align: middle;
+}
+  .mainDiv{
+    background: #e6e6e6;
+    width: 100%;
+  }
+  .myCadrd1{
+    width: 25rem;    
+  }
+  .createAccount{
+    color: #fff;
+    background-color: rgb(29, 218, 45);
+  }
+  .createAccount:hover{
+    color: #fff;
+    background-color: rgb(21, 152, 32);
+  }
+footer a {
+    color: #8a8a8a;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.myBtn{
+    border: 2px solid #ccc;
+    border-radius: 10%;
+    transform: rotate(90deg);
+    color: #706e6e;
+}
+
+
+.navbar-nav li a:hover {
+  box-shadow: 0 3px rgb(53, 70, 255);
+}
+
+.bigContainnnnnner{
+  display: none;
+}
+
+.sidebarOfColumn{
+  max-width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+}
+.sidebarOfColumn::-webkit-scrollbar{
+  width: 0;
+}
+
+.sidebarOfColumn:hover{
+  overflow: auto;
+}
+
+.halfBarOfColumn{
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+}
+.halfBarOfColumn:hover{
+  overflow-y: auto;
+}
+
+.halfBarOfColumn::-webkit-scrollbar{
+  width: 0;
+}
+
+.myCardStory{
+  /* background-image: url(python.png); */
+  background-position: center;
+  min-height: 300px;
+}
+.myCardStory a{
+  position: absolute;
+  bottom: 0;
+}
+.myCardStory:hover{
+  background-color: #706e6e;
+  background-size: 99%;
+
+}
+.chatEntry{
+  display: flex;
+  margin: 15px;
+vertical-align: bottom;
+  cursor: pointer;
+}
+.chatEntry:hover{
+  background-color: #ccc;
+  border-radius: 20px;
+
+}
+.chatEntry img{
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+.chatEntry h5{
+margin: 15px;
+text-align: center;
+vertical-align: middle;
+}

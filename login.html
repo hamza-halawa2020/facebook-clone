@@ -1,0 +1,811 @@
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+            integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <link href="main.css" rel="stylesheet"/>
+
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    </head>
+    <body>
+        <div class="loginAndSignupContiannnnnnnner">
+            <div class="mainDiv container-fueild">
+
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col col-lg-6 col-12">
+                            <div class="myDiv1 p-5">
+                                <h1 class="text-primary">facebook</h1>
+                                <p class="fs-3">Facebook helps you connect and share with the people in your life.</p>
+                            </div>
+                        </div>
+                        <!------->
+                        <form class="col-lg-6 col-12 needs-validation" novalidate="novalidate">
+                            <div
+                                class="myCadrd1 card p-3 shadow-lg p-3 m-5 bg-body-tertiary rounded text-center">
+                                <div id = "wrong1" class="w-100 form-group">
+                                    <input
+                                        class="form-control p-3 mb-3"
+                                        type="text"
+                                        placeholder="Email address or phone number"
+                                        required="required"
+                                        id="firstLogIn">
+                                    <div class="invalid-feedback">
+                                        The email address or mobile number you entered isn't connected to an account.
+                                        <a href="#" class="bs-dark">Find your account and log in.</a>
+                                    </div>
+                                </div>
+                                <div class="w-100 form-group">
+                                    <input
+                                        class="form-control p-3 mb-3"
+                                        type="password"
+                                        placeholder="Password"
+                                        required="required"
+                                        id="secondLogIn">
+
+                                    <div class="invalid-feedback">
+                                        check password is right
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary p-3 mb-3 w-100" id="logInBtn">Log in</button>
+                                <a
+                                    class="link-underline link-underline-opacity-0 text-primary text-center"
+                                    href="#">Forgetten password?</a>
+                                <button
+                                    class="createAccount btn p-2 m-4"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal">Create new account
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="">
+                <div class=" container-fueild bg-white">
+                    <div class=" container justify-content-center ">
+                        <a href="#">English (UK)</a>
+                        <a href="#">العربية</a>
+                        <a href="#">Français (France)</a>
+                        <a href="#">Italiano</a>
+                        <a href="#">Deutsch</a>
+                        <a href="#">Русский</a>
+                        <a href="#">Español</a>
+                        <a href="#">Bahasa Indonesia</a>
+                        <a href="#">Türkçe</a>
+                        <a href="#">Português (Brasil)</a>
+                        <a href="#">हिन्दी</a>
+                        <button class="myBtn">+</button>
+                        <hr>
+                        <div>
+                            <a href="#">Sign Up</a>
+                            <a href="#">Log in</a>
+                            <a href="#">Messenger</a>
+                            <a href="#">Facebook
+                            </a>
+                            <a href="#">LiteVideo</a>
+                            <a href="#">Places</a>
+                            <a href="#">Games</a>
+                            <a href="#">Marketplace</a>
+                            <a href="#">Meta Pay</a>
+                            <a href="#">Meta Store</a>
+                            <a href="#">Meta Quest</a>
+                            <a href="#">Instagram</a>
+                            <a href="#">Threads</a>
+                            <a href="#">Fundraisers</a>
+                            <a href="#">Services</a>
+                            <a href="#">Voting Information Centre</a>
+                            <a href="#">Privacy
+                            </a>
+                            <a href="#">Policy</a>
+                            <a href="#">Privacy Centre</a>
+                            <a href="#">Groups</a>
+                            <a href="#">About</a>
+                            <a href="#">Create ad</a>
+                            <a href="#">Create Page</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Careers</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">AdChoices</a>
+                            <a href="#">Terms</a>
+                            <a href="#">Help</a>
+                            <a href="#">Contact uploading and non-usersSettings</a>
+                        </div>
+                        <div class="pt-4">
+                            <a href="#">Hamza © 2023</a>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+            <!------------------------------>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <button
+                                class="btn-close position-absolute top-0 end-0 p-4"
+                                data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!------------->
+
+                            <div class="">
+                                <div class="container">
+                                    <form class="myCadrd1 row g-2 needs-validation" novalidate="novalidate">
+                                        <div>
+                                            <h1>Sign Up</h1>
+                                            <div>It's quick and easy.</div>
+                                            <hr>
+
+                                        </div>
+                                        <div class="col-6">
+                                            <input
+                                                id="fName"
+                                                class="form-control p-2"
+                                                type="text"
+                                                placeholder="First name"
+                                                required="required">
+                                            <div class="invalid-feedback">
+                                                check password is right
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <input
+                                                id="lName"
+                                                class="form-control p-2"
+                                                type="text"
+                                                placeholder="Last name"
+                                                required="required">
+                                            <div class="invalid-feedback">
+                                                check password is right
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <input
+                                                id="emailOrPhone"
+                                                class="form-control p-2"
+                                                type="text"
+                                                placeholder="Mobil number or email address"
+                                                required="required">
+                                            <div class="invalid-feedback">
+                                                check password is right
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <input
+                                                id="pass"
+                                                class="form-control p-2"
+                                                type="password"
+                                                placeholder="New password"
+                                                required="required">
+                                            <div class="invalid-feedback">
+                                                check password is right
+                                            </div>
+                                        </div>
+                                        <div>Date of birth
+                                            <span class="material-symbols-outlined">
+                                                help
+                                            </span>
+                                        </div>
+                                        <div id="day" class="col-4">
+                                            <select class="form-select">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-4">
+                                            <select id="month" class="form-select">
+                                                <option value="1">jan</option>
+                                                <option value="2">feb</option>
+                                                <option value="3">mar</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                            </select>
+                                        </div>
+                                        <div id="year" class="col-4">
+                                            <select class="form-select">
+                                                <option value="1">2023</option>
+                                                <option value="2">2022</option>
+                                                <option value="3">2021</option>
+                                                <option value="4">2020</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                            </select>
+                                        </div>
+                                        <div>Gender
+                                            <span class="material-symbols-outlined">
+                                                help
+                                            </span>
+                                        </div>
+                                        <div class="col-3 border rounded p-1 m-1 mx-auto">
+                                            <label class="form-label">Female
+                                                <input id="female" name="gender" type="radio" class="form-check-input">
+                                            </label>
+                                        </div>
+                                        <div class="col-3 border rounded p-1 m-1 mx-auto">
+                                            <label class="form-label">Male
+                                                <input id="male" name="gender" type="radio" class="form-check-input">
+                                            </label>
+                                        </div>
+                                        <div class="col-3 border rounded p-1 m-1 mx-auto">
+                                            <label class="form-label">custom
+                                                <input id="custom" name="gender" type="radio" class="form-check-input">
+                                            </label>
+                                        </div>
+                                        <div class="myTextSmall">People who use our service may have uploaded your
+                                            contact information to Facebook.
+                                            <a
+                                                class="link-underline link-underline-opacity-0 text-primary text-center"
+                                                href="#">Learn more.</a>
+                                        </div>
+                                        <div class="myTextSmall">By clicking Sign Up, you agree to our
+                                            <a
+                                                class="link-underline link-underline-opacity-0 text-primary text-center"
+                                                href="#">Terms,</a>
+                                            <a
+                                                class="link-underline link-underline-opacity-0 text-primary text-center"
+                                                href="#">Privacy Policy
+                                            </a>and
+                                            <a
+                                                class="link-underline link-underline-opacity-0 text-primary text-center"
+                                                href="#">Cookies Policy.</a>
+                                            You may receive SMS notifications from us and can opt out at any time.</div>
+
+                                        <button id="signUp" class="btn btn-success p-3 mb-4 w-100">Sign Up</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--------------->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------>
+
+</div>
+
+<div class="bigContainnnnnner">
+    <!--------header-->
+    <nav
+        class="navbar sticky-top navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div class="container-fluid">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <i class="fa-brands fa-facebook fa-2xl" style="color: #005eff;"></i>
+                </a>
+            </div>
+            <form class="" role="search"><input
+                class="form-control icon-search"
+                type="search"
+                placeholder="Search Facebook"
+                aria-label="Search"></form>
+
+            <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+                class="collapse navbar-collapse justify-content-center "
+                id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <i class="fa-solid fa-house fa-2xl p-3"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-users fa-2xl p-3"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-tv fa-2xl p-3"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-shop fa-2xl p-3"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-gamepad fa-2xl p-3"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="nav-item dropdown">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#">
+                    <i class="fa-brands fa-facebook-messenger fa-2xl"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end">
+                    <div class="container">
+                        <div class="class">chats</div>
+                        <div class="row">
+                            <div class="col">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                            <div class="col">
+                                <i class="fa-solid fa-maximize"></i>
+                            </div>
+                            <div class="col">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                            </div>
+                        </div>
+                        <form class="" role="search"><input
+                            class="form-control icon-search"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"></form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#">
+                    <i class="fa-solid fa-bell fa-2xl p-2"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end">
+                    <div class="container">
+                        <div class="h5">Notifications</div>
+                        <span class="h6">All</span>
+                        <span>Unread</span>
+                        <div>New</div>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi, sit quo
+                            eaque aliquid officia, exercitationem dolores obcaecati aut, rerum numquam totam
+                            quidem! Dicta, obcaecati eos! Vel natus aut dolorem!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-item dropdown">
+                <a class="nav-link" data-bs-toggle="dropdown" href="#">
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa-solid fa-gear"></i>
+                            Settings & privacy</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa-solid fa-circle-question"></i>
+                            Help & support</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa-solid fa-moon"></i>
+                            Dispaly & accessibility</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa-solid fa-message"></i>
+                            Give feedback</a>
+                    </li>
+                    <li>
+                        <a onclick="logOutMe()" id="logOut" class="dropdown-item" href="">
+                            <i class="fa-solid fa-right-from-bracket"></i>Log Out</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-------------------------------------------------------------->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="sidebarOfColumn col d-none d-lg-block">
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <i class="fa-solid fa-user-group fa-2xl m-4"></i>
+                        <span class="">find friends</span>
+                    </a>
+                </div>
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <i class="fa-regular fa-clock fa-2xl m-4"></i>
+                        <span class=""></span>memories
+                    </a>
+                </div>
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <i class="fa-solid fa-bookmark fa-2xl m-4"></i>
+                        <span class="">saved</span>
+                    </a>
+                </div>
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <i class="fa-solid fa-users-rectangle fa-2xl m-4"></i>
+                        <span class="">groups</span>
+                    </a>
+                </div>
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <i class="fa-solid fa-circle-chevron-down fa-2xl m-4"></i>
+                        <span class="">see more</span>
+                    </a>
+                </div>
+                <hr>
+                <div>
+                    your shourtcuts
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe fa-2xl m-4"></i>
+                    ITI Family -Intensive Code Camp 2023-2024
+                </div>
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Privacy</a>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Terms</a>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Advertising</a>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        Ad Choices</a>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">Cookies</a>
+                    hamza © 2023
+                </div>
+
+            </div>
+            <div class="halfBarOfColumn  col">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card text-center" style="height: 300px;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <a href="#" class="btn btn-primary">+</a>
+                                    <p class="card-text">create tour story</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="myCardStory d-flex flex-row card">
+                                <i class="fa-solid fa-user m-2"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                    <p class="card-text"></p>
+                                    <a href="#">ahmed</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container border rounded mb-5 mt-5">
+                    <div class="d-flex flex-row">
+                        <div class=""><img alt="" src="python.png" width="50px"></div>
+                        <div
+                            class="btn flex-fill"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            what is in your mind ?
+                        </div>
+                        <!-- Modal -->
+                        <div
+                            class="modal fade"
+                            id="exampleModal"
+                            tabindex="-1"
+                            aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel">create post</h1>
+                                        <button
+                                            type="button"
+                                            class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <textarea
+                                            id="postText"
+                                            class="form-control"
+                                            placeholder="what's on your mind ?"></textarea>
+                                    </div>
+                                    <div class="border rounded m-3 p-2 d-flex flex-row">
+                                        <div class="flex-fill">Add to your post</div>
+                                        <div class="col">
+                                            <i class="fa-solid fa-photo-film fa-lg"></i>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-solid fa-user fa-lg"></i>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-solid fa-face-laugh-beam fa-lg"></i>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-solid fa-gift fa-lg"></i>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-solid fa-ellipsis fa-lg"></i>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button onclick="addPost()" type="button" class="btn btn-primary">post</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <i class="fa-solid fa-video fa-xl"></i>
+                            live video</div>
+                        <div class="col">
+                            <i class="fa-solid fa-photo-film fa-xl"></i>
+                            photo/video</div>
+                        <div class="col">
+                            <i class="fa-solid fa-face-laugh-beam fa-xl"></i>
+                            feeling/activity</div>
+                    </div>
+                </div>
+
+                <div id="postsContainer" class=" container border rounded mb-5">
+                    
+                </div>
+
+<!------------------------------>
+<div class="allPostsInMainPage container border rounded mb-5">
+
+    
+
+                </div>
+                <!-- <div class="allPostsInMainPage container border rounded mb-5">
+                    <div class="d-flex flex-row">
+                        <div class="flex-fill">
+                            <div class="d-flex flex-row">
+                                <img src="python.png" width="35px">
+                                <div>
+                                    <div class="">paython furniture</div>
+                                    <span class="">Sponserd</span>
+                                    <span>
+                                        <i class="fa-solid fa-earth-americas fa-2xs"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="m-2">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, quisquam
+                                reprehenderit qui id numquam tempora vitae. Corrupti provident cum neque. Ipsam,
+                                corrupti iusto temporibus quod vero sint molestiae facere.
+                            </div>
+                            <img alt="" class="" src="json-images/post/3.jpg" width="100%">
+                            <div class="d-flex flex-row">
+                                <div class="flex-fill">
+                                    <i class="fa-solid fa-heart fa-sm"></i>
+                                    <i class="fa-solid fa-thumbs-up fa-sm"></i>
+                                    <i class="fa-solid fa-face-laugh-squint fa-sm"></i>
+                                    200k
+                                </div>
+                                <div class="me-3">2500k comments
+                                </div>
+                                <div>
+                                    60k shares</div>
+                            </div>
+                            <hr>
+                            <div class="d-flex flex-row justify-content-around">
+                                <div class="btn">
+                                    <i class="fa-regular fa-thumbs-up"></i>
+                                    Like</div>
+                                <div class="btn">
+                                    <i class="fa-regular fa-message"></i>
+                                    Comment</div>
+                                <div class="btn">
+                                    <i class="fa-solid fa-share"></i>
+                                    Share</div>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <img src="python.png" width="35">
+                                <div class="border rounded d-flex flex-row flex-fill align-items-center">
+                                    <input
+                                        class="border-0 btn rounded flex-fill"
+                                        type="text"
+                                        placeholder="write a comment...">
+                                    <i class="fa-brands fa-github p-1"></i>
+                                    <i class="fa-regular fa-face-smile p-1"></i>
+                                    <i class="fa-solid fa-camera p-1"></i>
+                                    <i class="fa-solid fa-gift p-1"></i>
+                                    <i class="fa-solid fa-poo p-1"></i>
+
+                                </div>
+                            </div>
+                            <p class="btn">View more comments</p>
+                            <div class="d-flex flex-row align-items-center">
+                                <img class="btn" src="python.png" width="50">
+                                <div class="border rounded p-2">
+                                    <div style="cursor: pointer;">ahmed ali</div>
+                                    <div>how much</div>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-ellipsis fa-xl p-2 btn"></i>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row align-items-center">
+                                <div class="ps-3">Like</div>
+                                <div class="ps-3">Reply</div>
+                                <div class="ps-3">Share</div>
+                                <div class="ps-3">12m</div>
+                            </div>
+
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link" data-bs-toggle="dropdown" href="#">
+                                <i class="fa-solid fa-ellipsis fa-xl p-2"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                            </ul>
+                        </div>
+                        <div class="btn btn-close p-2"></div>
+                    </div>
+                </div> -->
+
+                
+<!------------------------------>
+            </div>
+            <div class="sidebarOfColumn col d-none d-lg-block">
+                <div>
+                    Sponserd
+                </div>
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <img src="python.png" width="150px">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, fugit.
+                            Illo, consequatur atque pariatur est et nobis placeat fugiat quidem deleniti
+                            fugit at? Voluptates iste amet debitis deleniti sequi atque.</span>
+                    </a>
+                </div>
+                <hr>
+                <div>
+                    your pages and profiles
+                </div>
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <i class="fa-solid fa-globe fa-2xl me-1 mb-4 mt-4"></i>
+                        ITI Family -Intensive Code Camp 2023-2024</a>
+                </div>
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <i class="fa-regular fa-comments"></i>
+                        message</a>
+                </div>
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <i class="fa-solid fa-toggle-off"></i>
+                        switch to this page</a>
+                </div>
+                <div>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+
+                        <i class="fa-solid fa-bullhorn"></i>
+                        create add</a>
+                </div>
+                <hr>
+                <div>
+                    contacts
+                </div>
+                <div id="contianerChat"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-------------------------------------------------------------->
+
+</div>
+
+</div>
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.bundle.min.js"
+integrity="sha512-ToL6UYWePxjhDQKNioSi4AyJ5KkRxY+F1+Fi7Jgh0Hp5Kk2/s8FD7zusJDdonfe5B00Qw+B8taXxF6CFLnqNCw=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"></script>
+<script src="main.js"></script>
+</body>
+</html>
